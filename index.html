@@ -1,58 +1,33 @@
 <!DOCTYPE html>
-
-<html
- 
-lang="en">
-
+<html>
 <head>
+<title>Centered Content with Images</title>
+<style>
+  body {
+    text-align: center; /* Center all content by default */
+  }
 
-  
-<meta
- 
-charset="UTF-8">
-
-  
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
-
-  
-<title>Mass Mailer Helper Bot</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-    p {
-      line-height: 1.5;
-    }
-  </style>
+  img {
+    display: block; /* Ensure images are centered on their own lines */
+    margin: 0 auto; /* Automatically center images horizontally */
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Mass Mailer Helper Bot</h1>
-    <p>Write your questions here!</p>
-    <iframe style="height:100vh;width:100vw" frameBorder="0" 
+
+  <h1>Mass Mailer Helper Bot</h1>
+
+  <p>Ask your question below...</p>
+  <img src="path/to/your/image.jpg" alt="Descriptive image alt text">
+
+  <div>
+    <h2>Centered heading within a div</h2>
+    <p><iframe style="height:100vh;width:100vw" frameBorder="0" 
 src="https://widget.writesonic.com/CDN/index.html?service-base-url=https://api.botsonic.ai&token=490c9b1d-280b-4621-be34-936baabe7426&base-origin=https://bot.writesonic.com&instance-name=Botsonic&standalone=true&page-url=https://bot.writesonic.com/fa029c8e-9b54-4da5-b0bb-a415b797c7d5?t=connect&workspace_id=770786e3-1a31-47c8-b454-c56f13198a18" >
-</iframe>
+</iframe></p>
+    <img src="path/to/another/image.png" alt="More descriptive image alt text">
   </div>
+
 </body>
 </html>
-
 
